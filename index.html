@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pregnancy Tracker</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Pregnancy Tracker</h1>
+    <nav>
+      <button onclick="navigateTo('home')">Home</button>
+      <button onclick="navigateTo('nutrition')">Nutrition</button>
+      <button onclick="navigateTo('tips')">Tips</button>
+      <button onclick="navigateTo('hospitals')">Hospital Finder</button>
+      <button onclick="navigateTo('reminders')">Reminders</button>
+    </nav>
+  </header>
+
+  <!-- Content Sections -->
+  <section id="home" class="content active">
+    <h2>Welcome</h2>
+    <p>Track your pregnancy journey with week-by-week updates and tips.</p>
+  </section>
+
+  <section id="nutrition" class="content">
+    <h2>Nutrition</h2>
+    <p>Find nutritional tips to support you and your baby each week.</p>
+  </section>
+
+  <section id="tips" class="content">
+    <h2>Tips</h2>
+    <p>Helpful tips for each stage of pregnancy.</p>
+  </section>
+
+  <section id="hospitals" class="content">
+    <h2>Hospital Finder</h2>
+    <p>Locate nearby hospitals and top doctors.</p>
+  </section>
+
+  <section id="reminders" class="content">
+    <h2>Reminders</h2>
+    <p>Track important dates and health checkups.</p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
